@@ -461,13 +461,21 @@
   /* ── RESPONSIVE ── */
   @media(max-width: 768px) {
     header { padding: 16px 20px; }
-    .hero { padding: 100px 20px 60px; }
-    .counter-box { padding: 20px 32px; }
+    .hero { padding: 100px 16px 60px; }
+    .hero-title { font-size: clamp(36px, 12vw, 64px); }
+    .hero-sub-title { font-size: clamp(14px, 4vw, 20px); letter-spacing: 1px; }
+    .hero-desc { font-size: 13px; padding: 0 4px; }
+    .hero-label { font-size: 10px; letter-spacing: 2px; }
+    .counter-box { padding: 20px 24px; }
     .counter-number { font-size: 48px; }
-    .features { padding: 60px 20px; }
+    .features { padding: 48px 16px; }
     .features-grid { grid-template-columns: 1fr; }
-    .problems { padding: 60px 20px; }
-    .cta-bottom { padding: 60px 20px 80px; }
+    .problems { padding: 48px 16px; }
+    .problems-title { font-size: 22px; }
+    .problem-item { font-size: 12px; padding: 12px 14px; }
+    .solution-item { font-size: 12px; padding: 12px 14px; }
+    .cta-bottom { padding: 48px 16px 64px; }
+    .cta-bottom-title { font-size: 26px; }
   }
 </style>
 </head>
